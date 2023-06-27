@@ -14,6 +14,23 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-TicTacToeCLI-TicTacToeCLITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-TicTacToeCLI-TicTacToeCLITests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		A1334D2B2A4A038A00358F77 /* AppCenter-Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = A1334D2A2A4A038A00358F77 /* AppCenter-Config.plist */; };
+		A15EE11A2A4AB2D20088DE5B /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A15EE10A2A4AB2D20088DE5B /* Fontisto.ttf */; };
+		A15EE11B2A4AB2D20088DE5B /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A15EE10B2A4AB2D20088DE5B /* Octicons.ttf */; };
+		A15EE11C2A4AB2D20088DE5B /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A15EE10C2A4AB2D20088DE5B /* Feather.ttf */; };
+		A15EE11D2A4AB2D20088DE5B /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A15EE10D2A4AB2D20088DE5B /* Entypo.ttf */; };
+		A15EE11E2A4AB2D20088DE5B /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A15EE10E2A4AB2D20088DE5B /* FontAwesome5_Brands.ttf */; };
+		A15EE11F2A4AB2D20088DE5B /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A15EE10F2A4AB2D20088DE5B /* MaterialCommunityIcons.ttf */; };
+		A15EE1202A4AB2D20088DE5B /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A15EE1102A4AB2D20088DE5B /* AntDesign.ttf */; };
+		A15EE1212A4AB2D20088DE5B /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A15EE1112A4AB2D20088DE5B /* Foundation.ttf */; };
+		A15EE1222A4AB2D20088DE5B /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A15EE1122A4AB2D20088DE5B /* Ionicons.ttf */; };
+		A15EE1232A4AB2D20088DE5B /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A15EE1132A4AB2D20088DE5B /* FontAwesome5_Solid.ttf */; };
+		A15EE1242A4AB2D20088DE5B /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A15EE1142A4AB2D20088DE5B /* FontAwesome5_Regular.ttf */; };
+		A15EE1252A4AB2D20088DE5B /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A15EE1152A4AB2D20088DE5B /* FontAwesome.ttf */; };
+		A15EE1262A4AB2D20088DE5B /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A15EE1162A4AB2D20088DE5B /* Zocial.ttf */; };
+		A15EE1272A4AB2D20088DE5B /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A15EE1172A4AB2D20088DE5B /* EvilIcons.ttf */; };
+		A15EE1282A4AB2D20088DE5B /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A15EE1182A4AB2D20088DE5B /* SimpleLineIcons.ttf */; };
+		A15EE1292A4AB2D20088DE5B /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A15EE1192A4AB2D20088DE5B /* MaterialIcons.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +60,23 @@
 		5DCACB8F33CDC322A6C60F78 /* libPods-TicTacToeCLI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TicTacToeCLI.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = TicTacToeCLI/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-TicTacToeCLI-TicTacToeCLITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TicTacToeCLI-TicTacToeCLITests.release.xcconfig"; path = "Target Support Files/Pods-TicTacToeCLI-TicTacToeCLITests/Pods-TicTacToeCLI-TicTacToeCLITests.release.xcconfig"; sourceTree = "<group>"; };
+		A1334D2A2A4A038A00358F77 /* AppCenter-Config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AppCenter-Config.plist"; sourceTree = "<group>"; };
+		A15EE10A2A4AB2D20088DE5B /* Fontisto.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fontisto.ttf; sourceTree = "<group>"; };
+		A15EE10B2A4AB2D20088DE5B /* Octicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Octicons.ttf; sourceTree = "<group>"; };
+		A15EE10C2A4AB2D20088DE5B /* Feather.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Feather.ttf; sourceTree = "<group>"; };
+		A15EE10D2A4AB2D20088DE5B /* Entypo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Entypo.ttf; sourceTree = "<group>"; };
+		A15EE10E2A4AB2D20088DE5B /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Brands.ttf; sourceTree = "<group>"; };
+		A15EE10F2A4AB2D20088DE5B /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialCommunityIcons.ttf; sourceTree = "<group>"; };
+		A15EE1102A4AB2D20088DE5B /* AntDesign.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AntDesign.ttf; sourceTree = "<group>"; };
+		A15EE1112A4AB2D20088DE5B /* Foundation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Foundation.ttf; sourceTree = "<group>"; };
+		A15EE1122A4AB2D20088DE5B /* Ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ionicons.ttf; sourceTree = "<group>"; };
+		A15EE1132A4AB2D20088DE5B /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Solid.ttf; sourceTree = "<group>"; };
+		A15EE1142A4AB2D20088DE5B /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Regular.ttf; sourceTree = "<group>"; };
+		A15EE1152A4AB2D20088DE5B /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
+		A15EE1162A4AB2D20088DE5B /* Zocial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Zocial.ttf; sourceTree = "<group>"; };
+		A15EE1172A4AB2D20088DE5B /* EvilIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = EvilIcons.ttf; sourceTree = "<group>"; };
+		A15EE1182A4AB2D20088DE5B /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SimpleLineIcons.ttf; sourceTree = "<group>"; };
+		A15EE1192A4AB2D20088DE5B /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialIcons.ttf; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -86,12 +120,14 @@
 		13B07FAE1A68108700A75B9A /* TicTacToeCLI */ = {
 			isa = PBXGroup;
 			children = (
+				A15EE1092A4AB2D20088DE5B /* Fonts */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				A1334D2A2A4A038A00358F77 /* AppCenter-Config.plist */,
 			);
 			name = TicTacToeCLI;
 			sourceTree = "<group>";
@@ -135,6 +171,29 @@
 				00E356EE1AD99517003FC87E /* TicTacToeCLITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		A15EE1092A4AB2D20088DE5B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A15EE10A2A4AB2D20088DE5B /* Fontisto.ttf */,
+				A15EE10B2A4AB2D20088DE5B /* Octicons.ttf */,
+				A15EE10C2A4AB2D20088DE5B /* Feather.ttf */,
+				A15EE10D2A4AB2D20088DE5B /* Entypo.ttf */,
+				A15EE10E2A4AB2D20088DE5B /* FontAwesome5_Brands.ttf */,
+				A15EE10F2A4AB2D20088DE5B /* MaterialCommunityIcons.ttf */,
+				A15EE1102A4AB2D20088DE5B /* AntDesign.ttf */,
+				A15EE1112A4AB2D20088DE5B /* Foundation.ttf */,
+				A15EE1122A4AB2D20088DE5B /* Ionicons.ttf */,
+				A15EE1132A4AB2D20088DE5B /* FontAwesome5_Solid.ttf */,
+				A15EE1142A4AB2D20088DE5B /* FontAwesome5_Regular.ttf */,
+				A15EE1152A4AB2D20088DE5B /* FontAwesome.ttf */,
+				A15EE1162A4AB2D20088DE5B /* Zocial.ttf */,
+				A15EE1172A4AB2D20088DE5B /* EvilIcons.ttf */,
+				A15EE1182A4AB2D20088DE5B /* SimpleLineIcons.ttf */,
+				A15EE1192A4AB2D20088DE5B /* MaterialIcons.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
@@ -207,7 +266,7 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						LastSwiftMigration = 1120;
+						LastSwiftMigration = 1430;
 					};
 				};
 			};
@@ -242,8 +301,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A15EE1242A4AB2D20088DE5B /* FontAwesome5_Regular.ttf in Resources */,
+				A15EE11B2A4AB2D20088DE5B /* Octicons.ttf in Resources */,
+				A15EE11E2A4AB2D20088DE5B /* FontAwesome5_Brands.ttf in Resources */,
+				A15EE1222A4AB2D20088DE5B /* Ionicons.ttf in Resources */,
+				A15EE1292A4AB2D20088DE5B /* MaterialIcons.ttf in Resources */,
+				A15EE1232A4AB2D20088DE5B /* FontAwesome5_Solid.ttf in Resources */,
+				A15EE1282A4AB2D20088DE5B /* SimpleLineIcons.ttf in Resources */,
+				A15EE11D2A4AB2D20088DE5B /* Entypo.ttf in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				A15EE1202A4AB2D20088DE5B /* AntDesign.ttf in Resources */,
+				A15EE1262A4AB2D20088DE5B /* Zocial.ttf in Resources */,
+				A15EE1212A4AB2D20088DE5B /* Foundation.ttf in Resources */,
+				A15EE11C2A4AB2D20088DE5B /* Feather.ttf in Resources */,
+				A15EE1272A4AB2D20088DE5B /* EvilIcons.ttf in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				A15EE1252A4AB2D20088DE5B /* FontAwesome.ttf in Resources */,
+				A15EE11A2A4AB2D20088DE5B /* Fontisto.ttf in Resources */,
+				A15EE11F2A4AB2D20088DE5B /* MaterialCommunityIcons.ttf in Resources */,
+				A1334D2B2A4A038A00358F77 /* AppCenter-Config.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,6 +562,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S6P36LS58Y;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = TicTacToeCLI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -513,6 +590,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S6P36LS58Y;
 				INFOPLIST_FILE = TicTacToeCLI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

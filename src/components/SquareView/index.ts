@@ -1,0 +1,1 @@
+export { GameSquareView } from './SquareView';
