@@ -6,7 +6,6 @@ import { GameSquareView } from '../components/SquareView';
 import { styles } from './Game.styles';
 
 export const Game = ({navigation}: GameProps) => {
-  const [systemImageName, setSystemImageName] = useState('');
   const [isPlayer1, setIsPlayer1] = useState(true)
   const [gameState, setGameState] = useState(Array(9).fill(''));
 
@@ -27,10 +26,8 @@ export const Game = ({navigation}: GameProps) => {
 
   const handlePlayerMove = (position: number) => {
     if (isPlayer1) {
-      setSystemImageName("ellipse-outline");
       setIsPlayer1(false);
     } else {
-      setSystemImageName("close-outline");
       setIsPlayer1(true);
     }
 
@@ -51,7 +48,7 @@ export const Game = ({navigation}: GameProps) => {
       ) {
         // Win condition is met
         showWinAlert();
-        break;
+        return;
       }
     }
 
@@ -70,15 +67,15 @@ export const Game = ({navigation}: GameProps) => {
   };
 
   return (
-  <View style={{ flex: 1, backgroundColor: '#6172AE', paddingTop: 20, alignItems: 'center' }}>
-    <View style={{ alignItems: 'center', marginTop: 20 }}>
+  <View style={styles.container}>
+    <View style={styles.buttonView}>
       <ButtonStart titleButton="End Game" onPress={handleEndGame} />
     </View>
-    <View style={{ flexDirection: 'row', flexWrap: 'wrap', paddingTop: 80, marginLeft:15 }}>
+    <View style={styles.gameBoard}>
       {Array.from({ length: 9 }).map((_, index) => (
         <GameSquareView
               index={index}
-              image={gameState[index]}
+              image={gameState[index] === '1' ? 'ellipse-outline' : 'close-outline'}
               key={index}
               onPress={() => handlePlayerMove(index)}
             /> 

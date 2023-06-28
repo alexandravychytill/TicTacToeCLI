@@ -4,12 +4,9 @@
 <dict>
 	<key>UIAppFonts</key>
 	<array>
-		<string></string>
+		<string>Ionicons.ttf</string>
+		<string>MaterialCommunityIcons.tff</string>
 	</array>
-	<key>Item 2</key>
-	<string>Ionicons.ttf</string>
-	<key>Item 1</key>
-	<string>Fontisto.ttf</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
