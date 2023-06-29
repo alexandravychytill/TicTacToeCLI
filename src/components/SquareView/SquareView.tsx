@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { View, TouchableOpacity } from 'react-native';
+import { TouchableOpacity } from 'react-native';
 import { styles } from './SquareView.styles';
 import { GameSquareProps } from './SquareView.interface';
 import { PlayerIndicator } from '../PlayerIndicator';

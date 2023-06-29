@@ -8,6 +8,7 @@ import { styles } from './Game.styles';
 export const Game = ({navigation}: GameProps) => {
   const [isPlayer1, setIsPlayer1] = useState(true)
   const [gameState, setGameState] = useState(Array(9).fill(''));
+  const [winner, setWinner] = useState('Player');
 
   const winningPatterns = [
     [0, 1, 2], 
@@ -47,6 +48,7 @@ export const Game = ({navigation}: GameProps) => {
         currentGameState[a] === currentGameState[c]
       ) {
         // Win condition is met
+        setWinner(isPlayer1 ? 'Player 1' : 'Player 2');
         showWinAlert();
         return;
       }
@@ -59,7 +61,7 @@ export const Game = ({navigation}: GameProps) => {
   };
 
   const showWinAlert = () => {
-    Alert.alert('Congratulations!', 'Player won!', [{ text: 'OK', onPress: () => handleEndGame() }]);
+    Alert.alert('Congratulations!', `${winner} won!`, [{ text: 'OK', onPress: () => handleEndGame() }]);
   };
 
   const showDrawAlert = () => {
