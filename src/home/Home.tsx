@@ -12,7 +12,7 @@ export const Home = ({navigation}: HomeProps) => {
 
     return (
        <View style={styles.container}>
-            <ButtonStart titleButton='Start' onPress={handleButtonPress}/>
+            <ButtonStart titleButton='Start' onPress={handleButtonPress} acName='startButton'/>
        </View>
     )
 }

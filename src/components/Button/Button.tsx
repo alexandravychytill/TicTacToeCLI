@@ -4,7 +4,7 @@ import { styles } from './Button.styles';
 
 
 
-export const ButtonStart = ({titleButton , onPress}: ButtonProps) => {
+export const ButtonStart = ({titleButton , onPress, acName}: ButtonProps) => {
 
   const handlePress= () => {
     console.log('clicked icon');
@@ -12,7 +12,7 @@ export const ButtonStart = ({titleButton , onPress}: ButtonProps) => {
   };
 
     return (
-        <TouchableOpacity onPress={handlePress}>
+        <TouchableOpacity onPress={handlePress} accessibilityLabel={acName}>
         <View style={styles.button}>
           <Text style={styles.textButton}>{titleButton}</Text>
         </View>

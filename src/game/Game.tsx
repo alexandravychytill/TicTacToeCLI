@@ -71,7 +71,7 @@ export const Game = ({navigation}: GameProps) => {
   return (
   <View style={styles.container}>
     <View style={styles.buttonView}>
-      <ButtonStart titleButton="End Game" onPress={handleEndGame} />
+      <ButtonStart titleButton="End Game" onPress={handleEndGame} acName='endButton'/>
     </View>
     <View style={styles.gameBoard}>
       {Array.from({ length: 9 }).map((_, index) => (
