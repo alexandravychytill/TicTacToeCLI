@@ -13,9 +13,21 @@ buildscript {
     repositories {
         google()
         mavenCentral()
+
+
     }
+
     dependencies {
-        classpath("com.android.tools.build:gradle")
+        classpath("com.android.tools.build:gradle:7.3.0")
         classpath("com.facebook.react:react-native-gradle-plugin")
+    }
+
+    allprojects {
+        repositories {
+            maven {
+                // All of the Detox artifacts are provided via the npm module
+                url "$rootDir/../node_modules/detox/Detox-android"
+            }
+        }
     }
 }
