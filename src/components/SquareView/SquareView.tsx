@@ -18,8 +18,9 @@ export const GameSquareView = ({ index , image, onPress}: GameSquareProps) => {
       onPress={handlePlayerMove}
       style={styles.square}
       disabled={clicked}
+      testID={`Square${index}`}
     >
       {clicked && <PlayerIndicator systemImageName={image} />}
-    </TouchableOpacity>
+    </TouchableOpacity >
   );
 };
