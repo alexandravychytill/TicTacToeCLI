@@ -1,3 +1,5 @@
+import { device, element, by } from 'detox';
+
 describe('Draw Game', () => {
     beforeAll(async () => {
       await device.launchApp();
@@ -22,4 +24,3 @@ describe('Draw Game', () => {
     });
     });
   });
-  

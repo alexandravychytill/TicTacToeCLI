@@ -1,7 +1,8 @@
 import { getRandomNumberNotInArray, randomInt } from "./Helper"
+import { device, element, by } from 'detox';
 
 describe('Draw Game', () => {
-    beforeAll(async () => {
+  beforeAll(async () => {
       await device.launchApp();
     });
   
@@ -12,7 +13,6 @@ describe('Draw Game', () => {
 
       it('should correctly detect all winning conditions', async () => {
         const winningPatterns = [[0, 1, 2],[3, 4, 5],[6, 7, 8],[0, 3, 6], [1, 4, 7],[2, 5, 8],[0, 4, 8],[2, 4, 6],];
-    
         for (const pattern of winningPatterns) {
           await simulateGameWithPattern(pattern);
           await assertWinningCondition();
@@ -42,5 +42,3 @@ describe('Draw Game', () => {
       await element(by.id('startButton')).tap();
     }
 });
-
-  
