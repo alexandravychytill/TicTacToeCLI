@@ -7,7 +7,7 @@ import Icons from 'react-native-vector-icons/Ionicons';
 export const PlayerIndicator = ({systemImageName}: PlayerIndicatorProps ) => {
     return (
         <View style={styles.container}>
-         <Icons name={systemImageName} size={65} color="white" />
+         <Icons name={systemImageName} size={65} color="white" accessibilityLabel={systemImageName}/>
         </View>
       );
 }

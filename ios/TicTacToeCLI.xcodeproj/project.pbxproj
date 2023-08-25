@@ -15,7 +15,6 @@
 		7699B88040F8A987B510C191 /* libPods-TicTacToeCLI-TicTacToeCLITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-TicTacToeCLI-TicTacToeCLITests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		A1079A072A4BFCC00072DC83 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1079A062A4BFCC00072DC83 /* Ionicons.ttf */; };
-		A1079A0B2A4D64520072DC83 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1079A0A2A4D64520072DC83 /* Test.swift */; };
 		A1334D2B2A4A038A00358F77 /* AppCenter-Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = A1334D2A2A4A038A00358F77 /* AppCenter-Config.plist */; };
 /* End PBXBuildFile section */
 
@@ -47,7 +46,6 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = TicTacToeCLI/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-TicTacToeCLI-TicTacToeCLITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TicTacToeCLI-TicTacToeCLITests.release.xcconfig"; path = "Target Support Files/Pods-TicTacToeCLI-TicTacToeCLITests/Pods-TicTacToeCLI-TicTacToeCLITests.release.xcconfig"; sourceTree = "<group>"; };
 		A1079A062A4BFCC00072DC83 /* Ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
-		A1079A0A2A4D64520072DC83 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		A1334D2A2A4A038A00358F77 /* AppCenter-Config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AppCenter-Config.plist"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -92,7 +90,6 @@
 		13B07FAE1A68108700A75B9A /* TicTacToeCLI */ = {
 			isa = PBXGroup;
 			children = (
-				A1079A082A4D64410072DC83 /* AppiumTest */,
 				A1079A052A4BFC860072DC83 /* Fonts */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
@@ -152,14 +149,6 @@
 				A1079A062A4BFCC00072DC83 /* Ionicons.ttf */,
 			);
 			name = Fonts;
-			sourceTree = "<group>";
-		};
-		A1079A082A4D64410072DC83 /* AppiumTest */ = {
-			isa = PBXGroup;
-			children = (
-				A1079A0A2A4D64520072DC83 /* Test.swift */,
-			);
-			name = AppiumTest;
 			sourceTree = "<group>";
 		};
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
@@ -441,7 +430,6 @@
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
-				A1079A0B2A4D64520072DC83 /* Test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,7 +448,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-TicTacToeCLI-TicTacToeCLITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -488,7 +475,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-TicTacToeCLI-TicTacToeCLITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = TicTacToeCLITests/Info.plist;
@@ -516,7 +502,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = S6P36LS58Y;
+				DEVELOPMENT_TEAM = DK89F2AYAE;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = TicTacToeCLI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -545,7 +531,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = S6P36LS58Y;
+				DEVELOPMENT_TEAM = DK89F2AYAE;
 				INFOPLIST_FILE = TicTacToeCLI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

@@ -11,8 +11,8 @@ export const Home = ({navigation}: HomeProps) => {
     };
 
     return (
-       <View style={styles.container}>
-            <ButtonStart titleButton='Start' onPress={handleButtonPress} acName='startButton'/>
+       <View style={styles.container} testID="homeView">
+            <ButtonStart titleButton='Start' onPress={handleButtonPress} testID="startButton"/>
        </View>
     )
 }
