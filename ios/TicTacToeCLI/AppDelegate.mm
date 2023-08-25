@@ -3,6 +3,7 @@
 #import <React/RCTBundleURLProvider.h>
 #import <React/RCTLinkingManager.h>
 #import <React/RCTFont.h>
+#import "RNSplashScreen.h"
 
 @implementation AppDelegate
 
