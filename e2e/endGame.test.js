@@ -1,3 +1,5 @@
+import { device, element, by } from 'detox';
+
 describe('End Game', () => {
     beforeAll(async () => {
       await device.launchApp();

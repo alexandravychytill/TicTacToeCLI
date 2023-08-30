@@ -7,7 +7,6 @@ function getRandomNumberNotInArray(n, patternPlayerX) {
   
 function randomInt(n) {
     return Math.floor(Math.random() * n);
-  }
-
+}
 
 export { getRandomNumberNotInArray, randomInt };
