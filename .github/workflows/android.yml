@@ -31,19 +31,9 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Change to Android Directory
-        run: cd android
-  
-      - name: Debug Android Directory
-        run: |
-          ls -la android
-          ls -la android/gradlew
-
-      - name: Grant executable permissions to gradlew
-        run: chmod +x gradlew
 
       - name: Build Android
-        run: ./gradlew assembleRelease
+        run: cd android && ./gradlew clean && ./gradlew assembleRelease
 
       - name: Upload to App Center
         uses: wzieba/AppCenter-Github-Action@v1
