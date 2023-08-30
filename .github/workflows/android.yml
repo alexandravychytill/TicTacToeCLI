@@ -34,6 +34,9 @@ jobs:
       - name: Change to Android Directory
         run: cd android
 
+      - name: Grant executable permissions to gradlew
+        run: chmod +x gradlew
+
       - name: Build Android
         run: ./gradlew assembleRelease
 
