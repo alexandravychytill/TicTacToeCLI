@@ -33,7 +33,7 @@ jobs:
 
 
       - name: Build Android
-        run: cd android && ./gradlew clean && ./gradlew assembleDebug
+        run: cd android && ./gradlew assembleDebug
 
       - name: Upload to App Center
         uses: wzieba/AppCenter-Github-Action@v1
